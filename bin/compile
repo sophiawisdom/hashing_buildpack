@@ -1,1 +1,2 @@
+echo "Compilation is starting"
 make -C lib/popcount

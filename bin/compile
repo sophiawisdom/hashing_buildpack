@@ -1,2 +1,3 @@
 echo "Compilation is starting"
-make -C lib/popcount
+ruby ~/lib/popcount/extconf.rb make
+make -C ~/lib/popcount

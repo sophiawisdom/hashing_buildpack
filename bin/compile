@@ -1,3 +1,4 @@
 echo "Compilation is starting"
+rm -f $1/lib/popcount/popcount.o
 ruby $1/lib/popcount/extconf.rb make
 make -C $1/lib/popcount

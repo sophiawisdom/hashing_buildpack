@@ -1,6 +1,4 @@
 echo "Compilation is starting"
-ls ~
-ls ~/lib
-ls ~/lib/popcount
+echo "Build dir is $BUILD_DIR"
 ruby ~/lib/popcount/extconf.rb make
 make -C ~/lib/popcount

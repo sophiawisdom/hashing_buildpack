@@ -1,3 +1,6 @@
 echo "Compilation is starting"
+ls ~
+ls ~/lib
+ls ~/lib/popcount
 ruby ~/lib/popcount/extconf.rb make
 make -C ~/lib/popcount

@@ -1,4 +1,7 @@
 echo "Compilation is starting"
+echo "Removing popcount.o"
 rm -f $1/lib/popcount/popcount.o
+echo "Making makefile"
 ruby $1/lib/popcount/extconf.rb make
+echo "Running make"
 make -C $1/lib/popcount
